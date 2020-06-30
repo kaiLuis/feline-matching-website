@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrfect Match</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href='style.css'>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="bootstrap.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light blank">
+    <Div class="container">
+        <a class="navbar-brand" href="Home.html">Purrfect Match</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Features.html">Features</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Photos.html">Photos</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Sign up</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    </nav>
+    <div class="blank container">
+        <h1>Signup page</h1>
+        <form>
+            <div class="form-group">
+                <label for="username">Username: </label>
+                <input class="form-control" name="Username" type="text" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="fname">First name: </label>
+                <input class="form-control" type="text" id="fname" required>
+            </div>
+            <div class="form-group">
+                <label for="lname">Last name: </label>
+                <input class="form-control" type="text" id="lname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input class="form-control" type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password: </label>
+                <input class="form-control" type="password" name="password" id="password" aria-hidden="true" required>
+            </div>
+            <div class="form-group">
+                <label for="password-check">Confirm Password: </label>
+                <input class="form-control" type="password" id="password-check" required>
+            </div>
+            <div class="form-group">
+                <label for="conditions">Please check here to accept conditions</label>
+                <input type="checkbox" required>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

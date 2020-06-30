@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form demo solution</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="fname">First Name: </label>
+        <input id="fname" type="text" placeholder="John" required>
+        <label for="lname">Last Name: </label>
+        <input id="lname" type="text" placeholder="Smith" required>
+
+        <br>
+        <input type="radio" name="Gender" value="Male" id="Male">
+        <label for="Male">Male: </label>
+        <input type="radio" name="Gender" value="Female" id="Female">
+        <label for="Female">Female: </label>
+        <input type="radio" name="Gender" value="Other" id="Other">
+        <label for="Other">Other: </label>
+
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="your email" required>
+        
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="your password" required minlength="6" maxlength="11">
+        <br>
+
+        <label for="birthday">Birthday: </label>
+        <select name="month" id="month">
+            <option value="">Month</option>
+            <option value="Apr">Apr</option>
+            <option value="Aug">Aug</option>
+            <option value="Dec">Dec</option>
+        </select>
+        <select name="day">
+            <option value="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <select name="year">
+            <option value="">Year</option>
+            <option value="1989">1989</option>
+            <option value="1988">1988</option>
+            <option value="1987">1987</option>
+        </select>
+        <br>
+        
+        <label for="agreements">I agree to the terms and conditions</label>
+        <input type="checkbox" id="agreements" required>
+        <input type="submit">
+    </form>
+</body>
+</html>

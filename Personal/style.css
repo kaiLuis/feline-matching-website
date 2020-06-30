@@ -1,0 +1,66 @@
+label {
+    color: white;
+}
+h1, h3{
+    color: white;
+}
+hr {
+    width: 400px;
+    color: white;
+}
+html {
+    height: 100%;
+}
+h1 {
+    font-size: 5em;
+}
+.jumbotron h1{
+    color: black;
+}
+img {
+    margin: auto;
+}
+.active{
+    color: #6a2525;
+}
+#background{
+    background: url(https://undark.org/wp-content/uploads/2020/02/GettyImages-1199242002-1-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.centered{
+    text-align: center;
+    padding-top: 12%;
+}
+.orange {
+    border: .5px solid purple;
+}
+.row div {
+    padding: 1.66rem;
+}
+.post {
+    margin: 1.96rem;
+    padding: 8px 1.5px;
+    border: thick solid #2c3e50 ;
+    background-color: #a9cfd8;
+}
+.quote {
+    padding-left: 8px ;
+    border-left: 6px solid #2c3e50;
+}
+nav {
+    background-color: #ecf0f1;
+}
+div + .container {
+    background-color: #a9cfd8;
+
+}
+.blank {
+    background: linear-gradient(45deg, #25256a, #256a6a);
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+}
+.form-group {
+    margin: auto;
+}
